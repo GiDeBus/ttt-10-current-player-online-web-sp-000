@@ -6,7 +6,6 @@ turn = 0
     if counter.to_s == 'X' || counter.to_s == 'O'
       turn += 1
     else
-      turn = 0
     end
   end
   return turn
