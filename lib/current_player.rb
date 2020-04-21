@@ -14,7 +14,7 @@ end
 #current_player
 
 def current_player(board)
-  if turn_count(board).to_i % 2 == 0
+  if turn_count(board) % 2 == 0
     puts 'X player turn'
   else
     puts 'O player turn'
