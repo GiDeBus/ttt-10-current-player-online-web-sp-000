@@ -8,7 +8,8 @@ turn = 0
     else
       turn = 0
     end
-  end  
+  end
+  return turn
 end
 
 #current_player
